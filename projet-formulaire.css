@@ -1,3 +1,92 @@
-h1{
-    font-size: 100px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+body{
+    display:flex;
+    justify-content: center;
+    background-color: black;
+    color:white;
+}
+.conteneur-principal{
+    width: 900px;
+    height:100vh;
+    background-color: black;
+    border:1px solid aqua;
+    display:flex;
+    flex-direction: row;
+
+
+}
+.bloc-gauche{
+    display:flex;
+    width:40%;
+    height:100vh;
+    border:1px solid aqua;
+    
+}
+.titre{
+    border:1px solid aqua;
+    height:12%;
+    width:100%;
+    margin-top: 215px;
+}
+
+.bloc-droite{
+    width:61%;
+    height:100vh;
+    border:1px solid aqua;
+}
+form{
+    display:flex;
+    flex-direction: column;
+    height: 67%;
+}
+.intro{
+
+    width:100%;
+    height:33%;
+    border:1px solid aqua;
+}
+.legend{
+    margin-top:5px;
+}
+
+.formulaire{
+    display:flex;
+    width:100%;
+    height:55%;
+    border:1px solid aqua;
+    flex-direction: column;
+    
+}
+.bouton-validation{
+    width:100%;
+    height:45%;
+    border:1px solid aqua;
+}
+.paire{
+    display:flex;
+    width:100%;
+    border:1px solid aqua;
+    height:30%;
+    
+}
+.champ{
+    display:flex;
+    flex-direction: column;
+    flex:1;
+    border:1px solid aqua;
+    margin:5px;
+    
+}
+.leschamps{
+    align-items: center;
+    justify-content:center;
+    margin-left:13px;
+    margin-right:13px;
+    margin-top:5px
+    
+}
+
