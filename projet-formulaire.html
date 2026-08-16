@@ -4,15 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="projet-formulaire.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
     <div class="conteneur-principal">
         <div class="bloc-gauche">
-            <div class="titre"></div>
+            <div class="titre">
+                <div class="overlay">
+                    <img class="logo" src="assets/odin-lined.png" alt="logo de ODIN">
+                    ODIN</div>
+                    <div class="credit-photo">photo by rafeal garcin</div>
+            </div>
         </div>
         <div class="bloc-droite">
-            <div class="intro"></div>
+            <div class="intro">
+                <h1>formulaire d'inscription dans le cadre du pojet odin</h1>
+            </div>
             <form action="#" method="post">
                 <fieldset class="formulaire">
                     <legend>let do it!</legend>
@@ -38,18 +46,20 @@
                     </div>
                     <div class="paire num3">
                         <div class="champ prim5">
-                            <laber class="leschamps" for="pwd">Password</laber>
-                            <input class="leschamps" type="password" name="password">
+                            <label class="leschamps" for="pwd" >Password</label>
+                            <input class="leschamps" type="password" name="password" required>
                         </div>
                         <div class="champ prim6">
                             <label class="leschamps" for="pwd">Confirm password</label>
-                            <input class="leschamps" type="password" id="pwd" name="password">
+                            <input class="leschamps" type="password" id="pwd" name="Confirm_password" required>
                         </div>
                     </div>
                 </fieldset>
                 <div class="bouton-validation">
-                    <button type="submit">Creat Acount</button>
-                    <p>already have Acount <a href="#">log in</a></p>
+                    <div class="boutton">
+                        <button type="submit">Creat Acount</button>
+                    </div>
+                    <p>already have Acount? <a href="#">log in</a></p>
                     
                 </div>
             </form>
